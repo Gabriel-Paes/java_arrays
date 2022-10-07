@@ -16,17 +16,12 @@ public class App {
 
         for(int i = 0; i < vetor.length; i++){
             vetor[i] = sc.nextInt();
-        }
-        sc.close();
-
-        for(int i = 0; i < n; i++){
             dobro[i] = vetor[i]*2;
-        } 
-
-        for(int i = 0; i < inverso.length; i++){
             inverso[count] = vetor[i];
             count--;
-        } 
+        }
+        
+        sc.close();
 
         System.out.println("\nVetor\n");
         
